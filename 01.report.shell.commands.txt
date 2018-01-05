@@ -1,0 +1,56 @@
+passwd
+Changing password for khai.
+(current) UNIX password: 
+passwd: Authentication token manipulation error
+passwd: password unchanged
+date
+Thứ sáu, 05 Tháng một năm 2018 11:18:29 +07
+hostname
+khai-HP-Pavilion-g6-Notebook-PC
+arch
+x86_64
+uname -a
+Linux khai-HP-Pavilion-g6-Notebook-PC 4.10.0-42-generic #46~16.04.1-Ubuntu SMP Mon Dec 4 15:57:59 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+dmesg
+[ 1639.366832] ieee80211 phy0: rt2x00queue_flush_queue: Warning - Queue 2 failed to flush
+[ 1639.878658] ieee80211 phy0: rt2x00queue_flush_queue: Warning - Queue 2 failed to flush
+[ 1640.390654] ieee80211 phy0: rt2x00queue_flush_queue: Warning - Queue 2 failed to flush
+[ 1757.079158] ieee80211 phy0: rt2x00queue_flush_queue: Warning - Queue 2 failed to flush
+[ 1757.591071] ieee80211 phy0: rt2x00queue_flush_queue: Warning - Queue 2 failed to flush
+[ 1758.102991] ieee80211 phy0: rt2x00queue_flush_queue: Warning - Queue 2 failed to flush
+[ 1759.198858] ieee80211 phy0: rt2x00queue_flush_queue: Warning - Queue 2 failed to flush
+[ 1761.558433] ieee80211 phy0: rt2x00queue_flush_queue: Warning - Queue 2 failed to flush
+[ 2238.761746] ieee80211 phy0: rt2x00queue_flush_queue: Warning - Queue 2 failed to flush
+[ 2239.273618] ieee80211 phy0: rt2x00queue_flush_queue: Warning - Queue 2 failed to flush
+uptime
+ 11:20:52 up 41 min,  2 users,  load average: 0,55, 0,52, 0,56
+whoami
+khai
+who
+khai     tty7         2018-01-05 10:39 (:0)
+khai     tty1         2018-01-05 10:49
+ id
+uid=1000(khai) gid=1000(khai) groups=1000(khai),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+last
+boot   system boot  4.10.0-42-generi Tue Jan  2 14:52 - 10:13 (2+19:21)
+khai     tty7         :0               Tue Jan  2 14:46 - down   (00:05)
+reboot   system boot  4.10.0-42-generi Tue Jan  2 14:45 - 14:51  (00:06)
+khai     tty7         :0               Tue Jan  2 10:04 - down   (01:36)
+reboot   system boot  4.10.0-42-generi Tue Jan  2 10:03 - 11:40  (01:37)
+khai     tty7         :0               Tue Jan  2 08:49 - crash  (01:13)
+reboot   system boot  4.10.0-42-generi Tue Jan  2 08:49 - 11:40  (02:51)
+khai     tty7         :0               Mon Jan  1 19:51 - crash  (12:57)
+reboot   system boot  4.10.0-42-generi Mon Jan  1 19:50 - 11:40  (15:50)
+
+wtmp begins Mon Jan  1 19:49:54 2018
+finger
+Login     Name       Tty      Idle  Login Time   Office     Office Phone
+khai      khai       tty7       42  Jan  5 10:39 (:0)
+khai      khai      *tty1       31  Jan  5 10:49
+w
+ 11:22:24 up 43 min,  2 users,  load average: 0,33, 0,44, 0,53
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+khai     tty7     :0               10:39   43:01   2:00   0.13s /sbin/upstart -
+khai     tty1                      10:49   31:52   0.06s  0.04s -bash
+
+
