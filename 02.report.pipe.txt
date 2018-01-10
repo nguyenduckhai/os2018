@@ -1,0 +1,17 @@
+khai@khai-HP-Pavilion-g6-Notebook-PC:~$ ls| grep list
+list
+khai@khai-HP-Pavilion-g6-Notebook-PC:~$ wc /etc/passwd 
+  40   69 2237 /etc/passwd
+khai@khai-HP-Pavilion-g6-Notebook-PC:~$ free| grep Mem:
+Mem:        8073104      964032     6304748      149992      804324     6677784
+khai@khai-HP-Pavilion-g6-Notebook-PC:~$ cat /proc/cpuinfo | grep core
+core id		: 0
+cpu cores	: 2
+core id		: 0
+cpu cores	: 2
+core id		: 1
+cpu cores	: 2
+core id		: 1
+cpu cores	: 2
+khai@khai-HP-Pavilion-g6-Notebook-PC:~$ find Pictures -name "*jpg" | wc -l
+1
