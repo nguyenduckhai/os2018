@@ -1,0 +1,18 @@
+khai@khai-HP-Pavilion-g6-Notebook-PC:~$ ps
+  PID TTY          TIME CMD
+ 1843 pts/7    00:00:00 bash
+ 1896 pts/7    00:00:00 ps
+khai@khai-HP-Pavilion-g6-Notebook-PC:~$ ps aux | grep -i gnome-calculator | awk {'print$2'}
+1975
+2001
+khai@khai-HP-Pavilion-g6-Notebook-PC:~$ cat  /proc/1975/status
+Cpus_allowed:	ff
+Cpus_allowed_list:	0-7
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	288
+nonvoluntary_ctxt_switches:	41
+khai@khai-HP-Pavilion-g6-Notebook-PC:~$ kill -STOP 1975
+khai@khai-HP-Pavilion-g6-Notebook-PC:~$ kill -CONT 1975
+khai@khai-HP-Pavilion-g6-Notebook-PC:~$ kill -KILL 1975
+
