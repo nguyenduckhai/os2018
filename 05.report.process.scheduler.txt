@@ -1,0 +1,12 @@
+khai@khai-HP-Pavilion-g6-Notebook-PC:~$ cat /proc/sched_debug|grep systemd
+   systemd-udevd   293       423.163070       520   120         0.000000       778.213600         0.000000 0 0 /autogroup-12
+ systemd-timesyn   528        -7.200971        23   120         0.000000         8.116725         0.000000 0 0 /autogroup-33
+         systemd   999         6.900296        12   120         0.000000        17.136516         0.000000 0 0 /autogroup-74
+         systemd     1       189.044088      1472   120         0.000000      1220.931116         0.000000 0 0 /autogroup-2
+ systemd-journal   268        40.425748       591   120         0.000000       156.207704         0.000000 0 0 /autogroup-9
+  systemd-logind   833         3.435301       333   120         0.000000        30.978609         0.000000 0 0 /autogroup-47
+
+
+khai@khai-HP-Pavilion-g6-Notebook-PC:~$ cat /proc/1/sched | grep nr_switches
+nr_switches                                  :                 1478
+
