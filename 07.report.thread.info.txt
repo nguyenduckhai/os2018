@@ -1,0 +1,4 @@
+khai@khai-HP-Pavilion-g6-Notebook-PC:~$ ps -o nlwp 30563
+NLWP
+  31
+
