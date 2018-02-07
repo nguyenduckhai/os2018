@@ -4,7 +4,7 @@
 #include <pthread.h>
 #include <semaphore.h>
 #define BUFFER_SIZE 10
-
+//ok 
 typedef struct {
 char type; // 0=fried chicken, 1=French fries
 int amount; // pieces or weight
